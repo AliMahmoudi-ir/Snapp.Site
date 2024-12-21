@@ -7,6 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
+ HEAD
+=======
+    <Folder Include="Controllers\" />
+    <Folder Include="Views\" />
+>>>>>>> 09fa0ec708dcac846b690c74e442ea12ee640c55
     <Folder Include="wwwroot\css\" />
     <Folder Include="wwwroot\js\" />
     <Folder Include="wwwroot\img\" />
@@ -20,7 +25,10 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+ HEAD
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
+=======
+>>>>>>> 09fa0ec708dcac846b690c74e442ea12ee640c55
   </ItemGroup>
 
   <ItemGroup>

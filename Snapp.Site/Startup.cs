@@ -13,7 +13,10 @@ public class Startup
     public void ConfigureServices(IServiceCollection services)
     {
 
+<<<<<<< HEAD
         
+=======
+>>>>>>> 09fa0ec708dcac846b690c74e442ea12ee640c55
         #region AddDbContext    
         services.AddDbContext<DatabaseContext>(options =>
         {
@@ -21,6 +24,7 @@ public class Startup
         });
 
         #endregion
+<<<<<<< HEAD
 
         #region 
         //services.AddScoped<Itest, TestService>();
@@ -30,6 +34,9 @@ public class Startup
         services.AddMvc(option => option.EnableEndpointRouting = false);
         #endregion
 
+=======
+        services.AddMvc(option => option.EnableEndpointRouting = false);
+>>>>>>> 09fa0ec708dcac846b690c74e442ea12ee640c55
     }
 
     // Configure middleware here (equivalent to Configure)
